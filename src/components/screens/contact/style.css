@@ -1,0 +1,70 @@
+.Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 2rem 0;
+}
+
+.Contact__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 40%;
+    min-width: 30rem;
+    height: 50rem;
+}
+
+.Contact h1{
+    font-size: 6rem;
+}
+
+.Contact h2{
+    font-size: 2rem;
+}
+
+.Contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 0;
+    width: 100%;
+}
+
+.Contact form input{
+    width: 100%;
+    height: 3rem;
+    background-color: var(--color-secundary);
+    border: none;
+    border-bottom: 1px solid var(--color-primary);
+    font-family: var(--font-visualLighter);
+    outline: none;
+    font-size: 2rem 0.25rem;
+    padding: 1rem 0;
+    box-sizing: border-box;
+}
+
+.Contact form input:focus,
+.Contact form textarea:focus
+{
+    background-color: #E5FFE6;
+}
+
+.Contact form textarea{
+    width: 100%;
+    height: 10rem;
+    background-color: var(--color-secundary);
+    border: none;
+    border-bottom: 1px solid var(--color-primary);
+    font-family: var(--font-visualLighter);
+    outline: none;
+    font-size: 2rem 0.25rem;
+    padding: 1rem 0;
+    box-sizing: border-box;
+    resize: none;
+}
+

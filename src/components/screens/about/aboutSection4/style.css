@@ -1,0 +1,90 @@
+.AboutSection4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 5rem 0;
+    padding: 10rem 0;
+    box-sizing: border-box;
+    background-color: var(--color-secundary);
+}
+
+.AboutSection4 h1{
+    font-size: 6rem;
+    text-align: start;
+    width: 100%;
+    padding: 0 0 0 15rem;
+}
+
+.aboutSection4__tools,
+.aboutSection4__web{
+    width: 50%;
+    text-align: end;
+}
+
+.aboutSection4__tools h2,
+.aboutSection4__web h2{
+    font-family: var(--font-visual);
+    font-size: 2.5rem;
+}
+
+.aboutSection4__tools ul,
+.aboutSection4__web ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 1rem 0;
+}
+
+.aboutSection4__tools ul li,
+.aboutSection4__web ul li{
+    font-size: 2rem;
+    font-family: var(--font-visualLighter);
+    list-style: none;
+    font-weight: bold;
+    text-align: start;
+}
+
+@media screen and (max-width: 768px) {
+    .AboutSection4 h1{
+        font-size: 4rem;
+    }
+
+    .aboutSection4__tools h2, .aboutSection4__web h2{
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .AboutSection4 h1{
+        font-size: 3rem;
+    }
+
+    .aboutSection4__tools h2, .aboutSection4__web h2{
+        font-size: 1.5rem;
+    }
+
+    .aboutSection4__tools ul li, .aboutSection4__web ul li{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .AboutSection4 h1{
+        font-size: 3rem;
+    }
+
+    .aboutSection4__tools h2, .aboutSection4__web h2{
+        font-size: 1.5rem;
+    }
+
+    .aboutSection4__tools ul li, .aboutSection4__web ul li{
+        font-size: 1.25rem;
+    }
+
+}

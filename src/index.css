@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'VisueltPro';
+  src: url(./font/VisueltPro-Black.ttf);
+  font-style: normal;
+  font-weight: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'VisueltProLighter';
+  src: url(./font/VisueltPro-ExtraLight.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+:root {
+  --color-primary: #363636;
+  --color-secundary: #F9F9F9;
+  --color-terciary: #FFFFFF;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-visual: 'VisueltPro', sans-serif;
+  --font-visualLighter: 'VisueltProLighter', sans-serif;
+}
+
+body {
+  margin: 0 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+}
+
+html {
+  font-size: 62.5%;
+  width: 100vw;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-family: var(--font-visual);
+  margin: 0;
+}
+
+h2 {
+  font-family: var(--font-visualLighter);
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
 }

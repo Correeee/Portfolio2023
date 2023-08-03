@@ -1,0 +1,36 @@
+.AboutSection2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    background-color: #141414;
+}
+
+.AboutSection2__texts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2rem 5rem;
+    flex-wrap: wrap;
+}
+
+.AboutSection2__texts h2 {
+    font-size: 5rem;
+    color: var(--color-terciary)
+}
+
+@media screen and (max-width: 425px) {
+    
+    .AboutSection2__texts{
+        gap: 1rem 100%;
+    }
+
+    .AboutSection2__texts h2{
+        font-size: 3rem;
+    }
+
+}

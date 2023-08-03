@@ -1,0 +1,11 @@
+.HomeSection3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color-secundary);
+    gap: 1rem 0;
+}
+

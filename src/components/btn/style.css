@@ -1,0 +1,28 @@
+.btn__div{
+    position: relative;
+    margin: 1rem 0;
+    box-sizing: border-box;
+}
+
+.btn__circle{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    background-color: var(--color-primary);
+    opacity: 20%;
+    position: absolute;
+    top: -75%;
+    left: -10%;
+}
+
+.Btn {
+    text-decoration: none;
+    font-family: var(--font-visual);
+    font-size: 2rem;
+    transition: 0.2s;
+    color: var(--color-primary);
+}
+
+.Btn:hover {
+    color: red;
+}
