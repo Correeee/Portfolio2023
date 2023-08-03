@@ -1,0 +1,136 @@
+.Project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0 10rem;
+    box-sizing: border-box;
+}
+
+.Project__texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 3rem 0;
+}
+
+.Project__texts h1 {
+    font-size: 5rem;
+    width: 100%;
+}
+
+.Project__texts h2 {
+    font-size: 2.5rem;
+    width: 100%;
+}
+
+.Project__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.Project img {
+    width: 50rem;
+    padding: 0 2rem;
+    object-fit: cover;
+}
+
+.Project__texts__divLink {
+    position: relative;
+    margin: 1rem 0;
+    box-sizing: border-box;
+}
+
+
+.Project__circle {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    background-color: var(--color-primary);
+    opacity: 20%;
+    position: absolute;
+    top: -75%;
+    left: -10%;
+}
+
+.Project__texts__link {
+    font-family: var(--font-visual);
+    font-size: 2rem;
+    transition: 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.Project__texts__link:hover {
+    color: red;
+}
+
+@media screen and (max-width: 1024px) {
+    .Project__texts h1 {
+        font-size: 4rem;
+    }
+
+    .Project__texts h2 {
+        font-size: 2rem;
+    }
+
+    .Project__texts__link {
+        font-size: 1.5rem;
+    }
+
+    .Project img {
+        width: 32rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .Project {
+        flex-direction: column;
+        gap: 5rem 0;
+        padding: 0 4rem;
+    }
+
+    .Project__texts {
+        gap: 1.5rem 0;
+    }
+
+    .Project__img {
+        height: auto;
+    }
+
+    .Project__texts h1 {
+        font-size: 2.5rem;
+    }
+
+    .Project__texts h2 {
+        font-size: 1.5rem;
+    }
+
+    .Project__texts__link {
+        font-size: 1rem;
+    }
+
+    .Project img {
+        width: 30rem;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .Project img {
+        width: 25rem;
+    }
+
+}
+
+

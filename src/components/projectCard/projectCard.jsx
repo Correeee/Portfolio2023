@@ -2,9 +2,9 @@ import React from 'react'
 import './style.css'
 import Btn from '../btn/btn'
 
-const ProjectCard = ({name, category, description, image, number, backgroundColor}) => {
+const ProjectCard = ({ name, category, description, image, number, backgroundColor, id }) => {
     return (
-        <div className='ProjectCard' style={{backgroundColor: backgroundColor}}>
+        <div className='ProjectCard' style={{ backgroundColor: backgroundColor }}>
             <div className='projectCard__allTexts'>
                 <div>
                     <div className='ProjectCard__line'></div>
@@ -16,8 +16,9 @@ const ProjectCard = ({name, category, description, image, number, backgroundColo
                 </div>
             </div>
             <div className='ProjectCard__button'>
-                <Btn text={'VIEW PROJECT'} />
+                <Btn link={`/works/${id}`} text={'VIEW PROJECT ->'} />
             </div>
+                <img src={image} alt={name} className='projectCard__img' />
         </div>
     )
 }
