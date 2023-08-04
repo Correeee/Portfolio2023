@@ -15,7 +15,7 @@ function App() {
 
 
   return (
-    <div className="App" onLoad={() => window.scrollTo(0, 500)}>
+    <div className="App" >
       <BrowserRouter>
         <Navbar />
         <AnimatePresence mode='wait' >
