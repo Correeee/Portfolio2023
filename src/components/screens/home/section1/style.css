@@ -181,6 +181,14 @@
 
 @media screen and (max-width: 768px) {
 
+    .home__central{
+        gap: 10rem 0;
+    }
+
+    .home__container{
+        padding: 0 0 15rem 0;
+    }
+
     .X {
         font-size: 40rem;
     }
