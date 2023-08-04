@@ -6,9 +6,10 @@ import Footer from './components/footer/footer';
 import Works from './components/screens/works/works';
 import About from './components/screens/about/about';
 import Contact from './components/screens/contact/contact';
-import { useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import Project from './components/screens/project/project';
+import { useEffect } from 'react';
+
 
 function App() {
 
