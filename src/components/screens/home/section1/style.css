@@ -69,6 +69,7 @@
     text-decoration: underline;
     transition: 0.2s;
     cursor: pointer;
+    color: black;
 }
 
 .home__links a:hover {

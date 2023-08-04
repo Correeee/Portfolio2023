@@ -33,11 +33,11 @@ const HomeSection1 = () => {
                     </div>
                 </div>
                 <div className='home__links'>
-                    <a>Dribble</a>
+                    <a href='https://www.dribble.com' target='__blank'>Dribble</a>
                     <span>/</span>
-                    <a>Behance</a>
+                    <a href='https://www.behance.com' target='__blank'>Behance</a>
                     <span>/</span>
-                    <a>Github</a>
+                    <a href='https://www.github.com' target='__blank'>Github</a>
                 </div>
             </div>
             <h1 className='scrollDown'>SCROLL DOWN {'->'}</h1>
