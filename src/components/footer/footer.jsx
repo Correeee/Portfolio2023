@@ -12,7 +12,7 @@ const Footer = () => {
             <div className='footer__texts'>
                 <h1>Let´s work together</h1>
                 <h2>I´m available for freelance work.</h2>
-                <Btn link={'/contact'} text={'SAY HELLO'} color={'white'} />
+                <Btn link={'/contact'} text={'SAY HELLO'} />
             </div>
             <div className='footer__socials'>
                 <h3>© Maximiliano Correa 2023</h3>

@@ -52,7 +52,7 @@
     height: 2rem;
 }
 
-.link__div_sayHello{
+.link__div_sayHello {
     position: relative;
     margin: 5rem 0 0 0;
 }
@@ -69,7 +69,7 @@
     color: red;
 }
 
-.circlesayHello{
+.circlesayHello {
     width: 5rem;
     height: 5rem;
     border-radius: 100%;
@@ -80,22 +80,30 @@
     left: -20%;
 }
 
+.footer__texts .Btn {
+    color: var(--color-secundary);
+}
+
+.footer__texts .Btn:hover {
+    color: red;
+}
+
 @media screen and (max-width: 768px) {
-    
-    .footer__texts h1{
+
+    .footer__texts h1 {
         font-size: 3rem;
     }
-        
-    .footer__texts h2{
+
+    .footer__texts h2 {
         font-size: 1.5rem;
     }
-    
+
 
 }
 
 @media screen and (max-width: 375px) {
-    
-    .footer__socials{
+
+    .footer__socials {
         gap: 0 1rem;
     }
 
