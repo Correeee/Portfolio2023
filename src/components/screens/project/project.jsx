@@ -11,7 +11,7 @@ const Project = () => {
     useEffect(() => {
         const proj = projectsData.find(proj => proj.id == pid)
         setProject(proj)
-        console.log(proj)
+
     }, [])
 
 

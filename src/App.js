@@ -11,13 +11,26 @@ import Project from './components/screens/project/project';
 import { useEffect } from 'react';
 
 
+export function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    const App = document.getElementById('App') // id of the parent
+    App.scrollTo(0, 0)
+
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
 
 
 
   return (
-    <div className="App" >
-      <BrowserRouter>
+    <BrowserRouter>
+      <ScrollToTop />
+      <div className="App" id='App'>
         <Navbar />
         <AnimatePresence mode='wait' >
           <Routes>
@@ -29,8 +42,8 @@ function App() {
           </Routes>
         </AnimatePresence>
         <Footer />
-      </BrowserRouter>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
