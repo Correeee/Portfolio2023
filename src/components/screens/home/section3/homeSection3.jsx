@@ -16,9 +16,9 @@ const HomeSection3 = () => {
             }}
             className='HomeSection3'>
             {
-                projectsData.map((proj, i) => {
+                projectsData.slice(0, 3).map((proj, i) => {
                     return (
-                        <ProjectCard key={i} name={proj.name} category={proj.category} description={proj.description} image={proj.image} number={i} backgroundColor={proj.backgroundColor} id={proj.id}/>
+                        <ProjectCard key={i} name={proj.name} category={proj.category} description={proj.description} image={proj.image} number={i} backgroundColor={proj.backgroundColor} id={proj.id} />
                     )
                 })
             }

@@ -18,7 +18,7 @@ const ProjectCard = ({ name, category, image, number, backgroundColor, id }) => 
             <div className='ProjectCard__button'>
                 <Btn link={`/works/${id}`} text={'VIEW PROJECT ->'} />
             </div>
-                <img src={image} alt={name} className='projectCard__img' />
+            <img src={image} alt={name} className='projectCard__img' />
         </div>
     )
 }

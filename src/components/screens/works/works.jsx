@@ -1,6 +1,8 @@
 import React from 'react'
 import './style.css'
 import { motion } from 'framer-motion'
+import { projectsData } from '../../../data/projectsData'
+import ProjectCard from '../../projectCard/projectCard'
 
 
 const Works = () => {
@@ -13,7 +15,13 @@ const Works = () => {
                 delay: 0.2
             }}
             className='Works'>
-
+            {
+                projectsData.map((proj, i) => {
+                    return (
+                        <ProjectCard key={i} name={proj.name} category={proj.category} description={proj.description} image={proj.image} number={i} backgroundColor={proj.backgroundColor} id={proj.id} />
+                    )
+                })
+            }
         </motion.div>
     )
 }

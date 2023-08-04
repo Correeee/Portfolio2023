@@ -48,12 +48,14 @@ ul{
     .Navbar{
         height: auto
     }
+    
+    .Navbar img{
+        width: 3rem;
+        height: 3rem;
+    }
 
     .navBarHidden{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem 0 ;
+        gap: 0 1rem;
     }
 
     .navbar__links{
