@@ -8,7 +8,8 @@ import About from './components/screens/about/about';
 import Contact from './components/screens/contact/contact';
 import { AnimatePresence } from 'framer-motion';
 import Project from './components/screens/project/project';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import Loader from './components/screens/loader/loader';
 
 
 export function ScrollToTop() {
@@ -25,24 +26,36 @@ export function ScrollToTop() {
 
 function App() {
 
+  const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(true);
+    }, 3000); 
+  }, []);
 
 
   return (
     <BrowserRouter>
-      <ScrollToTop />
-      <div className="App" id='App'>
-        <Navbar />
-        <AnimatePresence mode='wait' >
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/works' element={<Works />} />
-            <Route path='/works/:pid' element={<Project />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/contact' element={<Contact />} />
-          </Routes>
-        </AnimatePresence>
-        <Footer />
-      </div>
+      {
+        loading ?
+          <div className="App" id='App'>
+            <ScrollToTop />
+            <Navbar />
+            <AnimatePresence mode='wait' >
+              <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/works' element={<Works />} />
+                <Route path='/works/:pid' element={<Project />} />
+                <Route path='/about' element={<About />} />
+                <Route path='/contact' element={<Contact />} />
+              </Routes>
+            </AnimatePresence>
+            <Footer />
+          </div>
+          :
+          <Loader />
+      }
     </BrowserRouter>
   );
 }
