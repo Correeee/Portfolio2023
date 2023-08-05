@@ -16,6 +16,7 @@
     width: 100%;
     gap: 2rem 5rem;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .AboutSection2__texts h2 {
