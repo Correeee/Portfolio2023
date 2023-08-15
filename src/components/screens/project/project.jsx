@@ -22,7 +22,7 @@ const Project = () => {
                 <h2>{project ? project.description : ''}</h2>
                 <div className='Project__texts__divLink'>
                     <div className='Project__circle'></div>
-                    <a href={project ? 'https://' + project.link : ''} className='Project__texts__link' target='__blank'>Ir a proyecto</a>
+                    <a href={project ? project.link : ''} className='Project__texts__link' target='__blank'>Ir a proyecto</a>
                 </div>
             </div>
             <div className='Project__img'>
