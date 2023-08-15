@@ -45,6 +45,7 @@
     position: relative;
     margin: 1rem 0;
     box-sizing: border-box;
+    z-index: 99999;
 }
 
 
@@ -57,6 +58,7 @@
     position: absolute;
     top: -75%;
     left: -10%;
+    z-index: -1;
 }
 
 .Project__texts__link {
