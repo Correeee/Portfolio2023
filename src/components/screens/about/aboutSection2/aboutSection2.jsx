@@ -14,10 +14,11 @@ const AboutSection2 = () => {
             className='AboutSection2'>
             <div className='AboutSection2__texts'>
                 <h2>DEVELOPER</h2>
-                <h2>INTERFACE DESIGN</h2>
-                <h2>UX/UI</h2>
-                <h2>ART DIRECTION</h2>
-                <h2>USER RESEARCH</h2>
+                <h2>FRONT-END</h2>
+                <h2>CREATIVO</h2>
+                <h2>ADAPTATIVO</h2>
+                <h2>COLABORATIVO</h2>
+                <h2>RESOLUTIVO</h2>
             </div>
         </motion.div>
     )

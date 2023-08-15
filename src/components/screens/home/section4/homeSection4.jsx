@@ -15,8 +15,8 @@ const HomeSection4 = () => {
             }}
             className='HomeSection4'>
             <div className='homeSection4__texts'>
-                <h2>THERE´S MORE</h2>
-                <Link to={'/works'} className='homesection4__link'>view all projects {'->'}</Link>
+                <h2>AQUI HAY MAS</h2>
+                <Link to={'/works'} className='homesection4__link'>VER TODOS LOS PROYECTOS {'->'}</Link>
             </div>
         </motion.div>
     )

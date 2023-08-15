@@ -8,10 +8,10 @@ const Navbar = ({ scrollTop }) => {
         <div className='Navbar' style={{ opacity: scrollTop == 0 ? '100%' : '50%' }}>
             <img src={logo} alt="Logo" className='logo' />
             <ul className='navBarHidden'>
-                <NavLink to={'/'} className='navbar__links' >HOME</NavLink>
-                <NavLink to={'/about'} className='navbar__links' >ABOUT</NavLink>
-                <NavLink to={'/works'} className='navbar__links' >WORKS</NavLink>
-                <NavLink to={'/contact'} className='navbar__links' >CONTACT</NavLink>
+                <NavLink to={'/'} className='navbar__links' >INICIO</NavLink>
+                <NavLink to={'/about'} className='navbar__links' >SOBRE MI</NavLink>
+                <NavLink to={'/works'} className='navbar__links' >PROYECTOS</NavLink>
+                <NavLink to={'/contact'} className='navbar__links' >CONTACTO</NavLink>
             </ul>
         </div>
     )

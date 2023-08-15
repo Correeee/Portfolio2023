@@ -23,9 +23,9 @@ const HomeSection1 = () => {
             <div className='home__container'>
                 <div className='home__central'>
                     <div className='home__texts'>
-                        <h1>CREATIVE DESIGNER & DEVELOPER.</h1>
-                        <h2>Versatile creative: fusing design and development. Innovative solutions for digital experiences. Crafting engaging visuals with seamless functionality.</h2>
-                        <Btn link={'/works'} text={'SEE MY WORKS'} />
+                        <h1>Maximiliano Correa</h1>
+                        <h2>Desarrollador FrontEnd. Diseño web interactivo y funcional. Experiencia fluida y atractiva para usuarios.</h2>
+                        <Btn link={'/works'} text={'MIS PROYECTOS'} />
                     </div>
                     <div className='home__img'>
                         <img src={homeImg} alt="Home-Image" />
@@ -33,11 +33,11 @@ const HomeSection1 = () => {
                     </div>
                 </div>
                 <div className='home__links'>
-                    <a href='https://www.dribble.com' target='__blank'>Dribble</a>
+                    <a href='https://www.linkedin.com/in/maximiliano-correa-developer/' target='__blank'>LinkedIn</a>
                     <span>/</span>
-                    <a href='https://www.behance.com' target='__blank'>Behance</a>
+                    <a href='https://drive.google.com/file/d/1piZAbeZBdSmtbK14E722ypj4zehvHs1J/view' target='__blank'>CV</a>
                     <span>/</span>
-                    <a href='https://www.github.com' target='__blank'>Github</a>
+                    <a href='https://github.com/Correeee?tab=repositories' target='__blank'>Github</a>
                 </div>
             </div>
             <h1 className='scrollDown'>SCROLL DOWN {'->'}</h1>

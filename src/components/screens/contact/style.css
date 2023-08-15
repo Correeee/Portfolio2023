@@ -68,10 +68,19 @@
     resize: none;
 }
 
+#sendingMessage{
+    text-align: center;
+}
+
 @media screen and (max-width: 768px){
     .Contact{
         justify-content: start;
         margin: 6rem 0 0 0;
     }
+
+    #sendingMessage{
+        font-size: 4rem;
+    }
+    
 }
 

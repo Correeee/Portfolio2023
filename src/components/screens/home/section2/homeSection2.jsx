@@ -14,10 +14,10 @@ const HomeSection2 = () => {
             }}
             className='HomeSection2'>
             <div className='homeSection2__title'>
-                <h1>Crafted with love. </h1>
+                <h1>Creado con amor. </h1>
                 <div className='line'></div>
             </div>
-            <h2>There are a selection of my recent works.</h2>
+            <h2>Una selección de mis trabajos más recientes.</h2>
         </motion.div>
     )
 }

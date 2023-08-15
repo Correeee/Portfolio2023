@@ -13,8 +13,8 @@ const AboutSection4 = () => {
                 delay: 0.5,
             }}
             className='AboutSection4'>
-            <h1>My Skills.</h1>
-            <div className='aboutSection4__tools'>
+            <h1>Mis Skills.</h1>
+            {/* <div className='aboutSection4__tools'>
                 <h2>Softwares / Tools</h2>
                 <ul>
                     <li>Figma</li>
@@ -24,14 +24,14 @@ const AboutSection4 = () => {
                     <li>Adobe XD</li>
                     <li>Adobe After Effects</li>
                 </ul>
-            </div>
+            </div> */}
             <div className='aboutSection4__web'>
                 <h2>Web Development</h2>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
-                    <li>React</li>
+                    <li>ReactJS</li>
                     <li>Firebase</li>
                     <li>MongoDB</li>
                     <li>Express</li>

@@ -12,11 +12,12 @@ const AboutSection3 = () => {
                 delay: 0.5,
             }}
             className='AboutSection3'>
-            <h1>How I work.</h1>
+            <h1>Como trabajo.</h1>
             <div className='AboutSection3__texts'>
-                <h2>As a developer and UX/UI designer, I specialize in creating seamless digital experiences that blend technical expertise with user-centric design principles. I collaborate with cross-functional teams to understand project requirements, implement scalable solutions, and optimize performance. My continuous learning approach allows me to adapt to dynamic project demands and deliver cutting-edge solutions.</h2>
-                <h2>In my role as a UX/UI developer, I conduct in-depth user research, visualize user journeys, and design intuitive interfaces that resonate with the target audience. I conduct usability testing to validate design decisions, ensuring a seamless flow and engaging interactions while maintaining accessibility and responsiveness.</h2>
-                <h2>I believe in the power of iterative design and effective communication, advocating for user-centered principles and delivering innovative solutions. My passion for technology and user experience drives me to embrace challenges and positively impact users and businesses alike.</h2>
+                <h2>Como desarrollador frontend, me especializo en crear experiencias digitales fluidas que combinan experiencia técnica con principios de diseño centrados en el usuario. Mi enfoque de aprendizaje continuo me permite adaptarme a las demandas dinámicas del proyecto y ofrecer soluciones de vanguardia.</h2>
+                <h2>A partir de los diseños proporcionados o no, convierto las maquetas y bocetos en código HTML, CSS y JavaScript. Presto especial atención a los detalles visuales, la tipografía, los espacios en blanco y los elementos interactivos para asegurar la coherencia con la identidad de la marca y la mejor experiencia posible para el usuario.</h2>
+                <h2>Me aseguro de que las interfaces sean completamente responsivas y se vean y funcionen de manera óptima en diversos dispositivos y tamaños de pantalla.</h2>
+                <h2>Permanezco comprometido con la mejora continua y el mantenimiento de los proyectos en curso.</h2>
             </div>
         </motion.div>
     )

@@ -61,3 +61,11 @@ ul{
         font-size: 1.5rem;
     }
 }
+
+@media screen and (max-width: 375px) {
+
+    .navbar__links{
+        font-size: 1.16rem;
+    }
+
+}

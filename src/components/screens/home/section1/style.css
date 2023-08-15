@@ -45,7 +45,7 @@
 
 .home__texts h1 {
     font-size: 6rem;
-    text-transform: lowercase;
+    text-transform: uppercase;
 }
 
 .home__texts h2 {
@@ -122,7 +122,7 @@
 .home__img img {
     width: 40rem;
     height: 40rem;
-    object-fit: cover;
+    object-fit: contain;
     animation: moveUpDown 3s ease-in-out infinite;
 }
 

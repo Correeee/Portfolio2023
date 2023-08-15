@@ -16,7 +16,7 @@ const ProjectCard = ({ name, category, image, number, backgroundColor, id }) => 
                 </div>
             </div>
             <div className='ProjectCard__button'>
-                <Btn link={`/works/${id}`} text={'VIEW PROJECT ->'} />
+                <Btn link={`/works/${id}`} text={'VER PROYECTO ->'} />
             </div>
             <img src={image} alt={name} className='projectCard__img' />
         </div>
