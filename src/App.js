@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/navbar/navbar';
 import Home from './components/screens/home/home';
@@ -36,7 +36,7 @@ function App() {
 
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       {
         loading ?
           <div className="App" id='App'>
@@ -56,7 +56,7 @@ function App() {
           :
           <Loader />
       }
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
