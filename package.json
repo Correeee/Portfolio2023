@@ -2,7 +2,7 @@
   "name": "portfolio-x",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Correeee.github.io/Portfolio2023",
+  "homepage": "https://correeee.github.io/Portfolio2023",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
