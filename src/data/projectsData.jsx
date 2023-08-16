@@ -18,9 +18,9 @@ export const projectsData = [
 
     { id: 4, name: 'Conversor', category: 'Javascript', description: 'Conversor de divisas USD Blue a peso argentino y viceversa. Diseñé una interfaz intuitiva que permite a los usuarios ingresar montos en dólares o pesos argentinos y obtener conversiones instantáneas.', image: projectImg4, link: 'https://correeee.github.io/Conversor/', backgroundColor: whiteBackground },
 
-    { id: 5, name: 'MercadoLibre Precios a USD', category: 'Javascript', description: 'Extensión: conversor de precios de los productos de Mercadolibre.com.ar a USD BLUE.', image: projectImg5, link: 'https://drive.google.com/drive/folders/1oHUXHGXLh6vQ1uLm4WGb6Hr4jkD5i4Lf?usp=drive_link', backgroundColor: greyBackground },
+    { id: 5, name: 'MercadoLibre | Precios a USD', category: 'Javascript', description: 'Extensión: conversor de precios de los productos de Mercadolibre.com.ar a USD BLUE.', image: projectImg5, link: 'https://drive.google.com/drive/folders/1oHUXHGXLh6vQ1uLm4WGb6Hr4jkD5i4Lf?usp=drive_link', backgroundColor: greyBackground },
 
-    { id: 6, name: 'Despegar Precios a USD', category: 'Javascript', description: 'Extensión: conversor de precios de los productos de Despegar.com.ar a USD BLUE.', image: projectImg5, link: 'https://drive.google.com/drive/folders/13UWLRCc1kI9L_Th0y8hfkUnw9FdYdhnz?usp=drive_link', backgroundColor: whiteBackground },
+    { id: 6, name: 'Despegar | Precios a USD', category: 'Javascript', description: 'Extensión: conversor de precios de los productos de Despegar.com.ar a USD BLUE.', image: projectImg5, link: 'https://drive.google.com/drive/folders/13UWLRCc1kI9L_Th0y8hfkUnw9FdYdhnz?usp=drive_link', backgroundColor: whiteBackground },
     
 
 ]
