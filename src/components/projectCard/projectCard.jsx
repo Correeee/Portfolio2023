@@ -2,7 +2,7 @@ import React from 'react'
 import './style.css'
 import Btn from '../btn/btn'
 
-const ProjectCard = ({ name, category, image, number, backgroundColor, id }) => {
+const ProjectCard = ({ name, category, image, number, backgroundColor, id, update }) => {
     return (
         <div className='ProjectCard' style={{ backgroundColor: backgroundColor }}>
             <div className='projectCard__allTexts'>
