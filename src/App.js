@@ -9,7 +9,8 @@ import Contact from './components/screens/contact/contact';
 import { AnimatePresence } from 'framer-motion';
 import Project from './components/screens/project/project';
 import { useEffect, useState } from 'react';
-import Loader from './components/screens/loader/loader';
+import Loader, { TIME_LOADING_SECONDS } from './components/screens/loader/loader';
+
 
 
 export function ScrollToTop() {
@@ -28,10 +29,11 @@ function App() {
 
   const [loading, setLoading] = useState(false)
 
+
   useEffect(() => {
     setTimeout(() => {
       setLoading(true);
-    }, 3000); 
+    }, (TIME_LOADING_SECONDS * 1000));
   }, []);
 
 

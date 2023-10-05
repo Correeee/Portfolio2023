@@ -2,6 +2,10 @@ import React, { useEffect, useState } from 'react'
 import './style.css'
 import logo from '../../navbar/assets/logo.png'
 
+export const TIME_LOADING_SECONDS = 2
+const WIDTH_LOADER = TIME_LOADING_SECONDS * 10
+const TIME_CLEAR = TIME_LOADING_SECONDS * 1000
+
 const Loader = () => {
 
     const [widthLoader, setWidthLoader] = useState(0)
@@ -10,11 +14,11 @@ const Loader = () => {
         const widthInterval = setInterval(() => {
             const newCount = widthLoader + 1;
             setWidthLoader(newCount);
-        }, 30);
+        }, WIDTH_LOADER);
 
         setTimeout(() => {
             clearInterval(widthInterval);
-        }, 3000);
+        }, TIME_CLEAR);
 
         return () => {
             clearInterval(widthInterval);
