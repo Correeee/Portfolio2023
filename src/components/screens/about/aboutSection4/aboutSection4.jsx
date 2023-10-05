@@ -35,6 +35,7 @@ const AboutSection4 = () => {
                     <li>Firebase</li>
                     <li>MongoDB</li>
                     <li>Express</li>
+                    <li>NodeJS</li>
                 </ul>
             </div>
         </motion.div>
