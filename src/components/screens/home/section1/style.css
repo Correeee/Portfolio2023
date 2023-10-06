@@ -203,6 +203,10 @@
         height: 50rem;
     }
 
+    .home__texts{
+        align-items: center;
+    }
+
     .home__texts h1 {
         font-size: 3.5rem;
     }
