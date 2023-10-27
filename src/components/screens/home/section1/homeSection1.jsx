@@ -35,7 +35,7 @@ const HomeSection1 = () => {
                 <div className='home__links'>
                     <a href='https://www.linkedin.com/in/maximiliano-correa-developer/' target='__blank'>LinkedIn</a>
                     <span>/</span>
-                    <a href='https://drive.google.com/file/d/1piZAbeZBdSmtbK14E722ypj4zehvHs1J/view' target='__blank'>CV</a>
+                    <a href='https://drive.google.com/file/d/1Ok8SR_QaH4HrnWiZJ5M7zfenLW9Gey-U/view?usp=sharing' target='__blank'>CV</a>
                     <span>/</span>
                     <a href='https://github.com/Correeee?tab=repositories' target='__blank'>Github</a>
                 </div>

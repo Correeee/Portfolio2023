@@ -22,7 +22,7 @@ const Footer = () => {
                 {/* <a href='https://www.facebook.com' target='__blank' className="social__links"><img src={fb} alt="Facebook" className="social__links_img" /></a>
                 <a href='https://www.instagram.com' target='__blank' className="social__links"><img src={ig} alt="Instagram" className="social__links_img" /></a> */}
                 <a href='https://www.linkedin.com/in/maximiliano-correa-developer/' target='__blank' className="social__links"><img src={li} alt="Linkedin" className="social__links_img" /></a>
-                <a href='https://drive.google.com/file/d/1piZAbeZBdSmtbK14E722ypj4zehvHs1J/view' target='__blank' className="social__links"><img src={cv} alt="Curriculum" className="social__links_img" /></a>
+                <a href='https://drive.google.com/file/d/1Ok8SR_QaH4HrnWiZJ5M7zfenLW9Gey-U/view?usp=sharing' target='__blank' className="social__links"><img src={cv} alt="Curriculum" className="social__links_img" /></a>
                 <a href='https://github.com/Correeee?tab=repositories' target='__blank' className="social__links"><img src={gh} alt="Github" className="social__links_img" /></a>
                 {/* <a href='https://www.behance.com' target='__blank' className="social__links"><img src={be} alt="Behance" className="social__links_img" /></a> */}
             </div>
