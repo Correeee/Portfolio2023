@@ -32,6 +32,7 @@ const AboutSection4 = () => {
                     <li>CSS</li>
                     <li>Javascript</li>
                     <li>ReactJS</li>
+                    <li>NextJS</li>
                     <li>Firebase</li>
                     <li>MongoDB</li>
                     <li>Express</li>
