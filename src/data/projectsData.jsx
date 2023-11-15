@@ -6,6 +6,7 @@ import projectImg5 from '../components/screens/home/section3/assets/5.png'
 import projectImg6 from '../components/screens/home/section3/assets/6.png'
 import projectImg7 from '../components/screens/home/section3/assets/7.png'
 import projectImg8 from '../components/screens/home/section3/assets/8.jpeg'
+import projectImg9 from '../components/screens/home/section3/assets/9.png'
 
 
 const greyBackground = 'var(--color-secundary)'
@@ -26,6 +27,7 @@ export const projectsData = [
 
     { id: 6, name: 'MercadoLibre | Precios a USD', category: 'Javascript', description: 'Extensión: conversor de precios de los productos de Mercadolibre.com.ar a USD BLUE.', image: projectImg5, link: 'https://drive.google.com/drive/folders/1oHUXHGXLh6vQ1uLm4WGb6Hr4jkD5i4Lf?usp=drive_link', backgroundColor: greyBackground },
 
-    { id: 7, name: 'Despegar | Precios a USD', category: 'Javascript', description: 'Extensión: conversor de precios de los productos de Despegar.com.ar a USD BLUE.', image: projectImg6, link: 'https://drive.google.com/drive/folders/13UWLRCc1kI9L_Th0y8hfkUnw9FdYdhnz?usp=drive_link', backgroundColor: whiteBackground }
+    { id: 7, name: 'Despegar | Precios a USD', category: 'Javascript', description: 'Extensión: conversor de precios de los productos de Despegar.com.ar a USD BLUE.', image: projectImg6, link: 'https://drive.google.com/drive/folders/13UWLRCc1kI9L_Th0y8hfkUnw9FdYdhnz?usp=drive_link', backgroundColor: whiteBackground },
+    { id: 8, name: 'Busta | Productos sustentables', category: 'React', description: "Este proyecto representa un equipo comprometido con la excelencia en la provisión de productos de alta calidad en las categorías de bolsas, packaging y regalos empresariales. La misión central es lograr un crecimiento sostenible, guiado por el respeto y la innovación, al mantenerse informados sobre las tendencias globales. Especializados en ofrecer soluciones para eventos empresariales y regalos, el enfoque principal es promover la conciencia ambiental a través de productos como bolsas, mantas, fundas y artículos de bazar. Con años de experiencia, el equipo opera bajo valores sólidos, dando prioridad a la comunicación efectiva y adoptando principios de economía circular. La constante búsqueda de la innovación se refleja en el acompañamiento activo a empleados, clientes y proveedores.", image: projectImg9, link: 'https://busta.com.ar/', backgroundColor: greyBackground }
 
 ]

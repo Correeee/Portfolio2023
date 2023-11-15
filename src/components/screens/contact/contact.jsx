@@ -2,11 +2,12 @@ import React, { useState } from 'react'
 import './style.css'
 import Btn from '../../btn/btn'
 import { motion } from 'framer-motion'
+import { Resend } from 'resend';
 
 const Contact = () => {
 
     const [name, setName] = useState('')
-    // const [email, setEmail] = useState('')
+    const [email, setEmail] = useState('')
     const [subject, setSubject] = useState('')
     const [message, setMessage] = useState('')
 
@@ -21,6 +22,7 @@ const Contact = () => {
         }
 
     }
+
 
     return (
         <motion.div
@@ -39,7 +41,7 @@ const Contact = () => {
                             <h2>No dude en ponerse en contacto conmigo en cualquier momento.</h2>
                             <form action="" id='contactForm' onSubmit={(e) => e.preventDefault()}>
                                 <input type="text" placeholder='Nombre' onChange={(e) => setName(e.target.value)} required />
-                                {/* <input type="email" placeholder='Email' onChange={(e) => setEmail(e.target.value)} /> */}
+                                <input type="email" placeholder='Email' onChange={(e) => setEmail(e.target.value)} required />
                                 <input type="text" placeholder='Motivo' onChange={(e) => setSubject(e.target.value)} required />
                                 <textarea rows="4" cols="10" placeholder='Mensaje' onChange={(e) => setMessage(e.target.value)} required />
                             </form>
