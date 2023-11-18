@@ -73,6 +73,7 @@
     margin: 1rem 0;
     box-shadow: -50px 10px 0px #D1E5FD;
     background-color: transparent;
+    object-fit: cover;
 }
 
 .ProjectCard__button {
