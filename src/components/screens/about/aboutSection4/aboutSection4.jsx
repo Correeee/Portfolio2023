@@ -37,6 +37,7 @@ const AboutSection4 = () => {
                     <li>MongoDB</li>
                     <li>Express</li>
                     <li>NodeJS</li>
+                    <li>Wordpress</li>
                 </ul>
             </div>
         </motion.div>
