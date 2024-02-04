@@ -9,6 +9,11 @@ import projectImg8 from '../components/screens/home/section3/assets/8.jpeg'
 import projectImg9 from '../components/screens/home/section3/assets/9.png'
 import projectImg10 from '../components/screens/home/section3/assets/10.png'
 import projectImg11 from '../components/screens/home/section3/assets/11.png'
+import projectImg12 from '../components/screens/home/section3/assets/12.png'
+import projectImg13 from '../components/screens/home/section3/assets/13.png'
+import projectImg14 from '../components/screens/home/section3/assets/14.png'
+import projectImg15 from '../components/screens/home/section3/assets/15.png'
+import projectImg16 from '../components/screens/home/section3/assets/16.png'
 
 
 const greyBackground = 'var(--color-secundary)'
@@ -37,6 +42,10 @@ export const projectsData = [
 
     { id: 9, name: 'Tierras Urbanas | Desarrollos', category: 'Wordpress', description: "Para este proyecto, trabajé estrechamente con el equipo de Tierras Urbanas para traducir su visión y valores a una experiencia digital cautivadora. El sitio web no solo refleja la excelencia en sus proyectos, sino que también comunica la misión de la empresa de manera clara y atractiva. Diseñé y desarrollé el sitio utilizando WordPress, aprovechando sus capacidades para crear una plataforma robusta y fácil de gestionar. La navegación intuitiva, la presentación visual de proyectos destacados y la integración de contenido dinámico permiten a los visitantes explorar el impresionante portafolio de Tierras Urbanas de manera fluida y atractiva.", image: projectImg10, link: 'https://tierrasurbanas.com.ar/', backgroundColor: whiteBackground },
 
-    { id: 10, name: 'Kitoks', category: 'Empretienda', description: "Kitoks es mucho más que una tienda de ropa en línea; es una experiencia de compra personalizada. Desarrollada con la potente plataforma Empretienda, esta tienda combina la elegancia de la moda con la funcionalidad sin fisuras. Desde su atractivo diseño hasta su interfaz intuitiva, Kitoks se destaca como un ejemplo de cómo la tecnología puede potenciar la industria de la moda.", image: projectImg11, link: 'https://kitoks.empretienda.com.ar/', backgroundColor: greyBackground }
-
+    { id: 10, name: 'Kitoks', category: 'Empretienda', description: "Kitoks es mucho más que una tienda de ropa en línea; es una experiencia de compra personalizada. Desarrollada con la potente plataforma Empretienda, esta tienda combina la elegancia de la moda con la funcionalidad sin fisuras. Desde su atractivo diseño hasta su interfaz intuitiva, Kitoks se destaca como un ejemplo de cómo la tecnología puede potenciar la industria de la moda.", image: projectImg11, link: 'https://kitoks.empretienda.com.ar/', backgroundColor: greyBackground },
+    { id: 11, name: 'DitaCode', category: 'Wordpress', description: "Desde el desarrollo de software a medida hasta servicios de consultoría tecnológica, explorarás soluciones diseñadas para optimizar procesos y potenciar el crecimiento de tu empresa. Sitio realizado con Wordpress.", image: projectImg12, link: 'https://ditacode.com/', backgroundColor: greyBackground },
+    { id: 12, name: 'Webdianoia', category: 'Wordpress', description: "Descarga de dos volúmenes de Filsofía, con pasarela de pagos. Sitio realizado con Wordpress.", image: projectImg13, link: 'https://descargas.webdianoia.com/', backgroundColor: greyBackground },
+    { id: 13, name: 'Vinos LaBlue', category: 'Wordpress', description: "Ecommerce de Vinos argentinos. Sitio realizado con Wordpress.", image: projectImg14, link: 'https://lablue.com.ar/', backgroundColor: greyBackground },
+    { id: 14, name: 'Elloil', category: 'Wordpress', description: "Sitio de Elloil: soluciones integrales para los sectores Industriales, Oil&Gas, Energéticos y Mineros.", image: projectImg15, link: 'https://lablue.com.ar/', backgroundColor: greyBackground },
+    { id: 15, name: 'Ivan Castro', category: 'Wordpress', description: "Sitio del socio estratégico chileno Ivan Castro. Desarrollo de software a medida hasta servicios de consultoría tecnológica.", image: projectImg16, link: 'https://lablue.com.ar/', backgroundColor: greyBackground },
 ]
