@@ -47,5 +47,5 @@ export const projectsData = [
     { id: 12, name: 'Webdianoia', category: 'Wordpress', description: "Descarga de dos volúmenes de Filsofía, con pasarela de pagos. Sitio realizado con Wordpress.", image: projectImg13, link: 'https://descargas.webdianoia.com/', backgroundColor: greyBackground },
     { id: 13, name: 'Vinos LaBlue', category: 'Wordpress', description: "Ecommerce de Vinos argentinos. Sitio realizado con Wordpress.", image: projectImg14, link: 'https://lablue.com.ar/', backgroundColor: greyBackground },
     { id: 14, name: 'Elloil', category: 'Wordpress', description: "Sitio de Elloil: soluciones integrales para los sectores Industriales, Oil&Gas, Energéticos y Mineros.", image: projectImg15, link: 'https://lablue.com.ar/', backgroundColor: greyBackground },
-    { id: 15, name: 'Ivan Castro', category: 'Wordpress', description: "Sitio del socio estratégico chileno Ivan Castro. Desarrollo de software a medida hasta servicios de consultoría tecnológica.", image: projectImg16, link: 'https://lablue.com.ar/', backgroundColor: greyBackground },
+    { id: 15, name: 'Ivan Castro', category: 'Wordpress', description: "Sitio del socio estratégico chileno Ivan Castro. Desarrollo de software a medida hasta servicios de consultoría tecnológica.", image: projectImg16, link: 'https://ivancastro.cl/', backgroundColor: greyBackground },
 ]
