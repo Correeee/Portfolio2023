@@ -16,7 +16,8 @@ import projectImg15 from '../components/screens/home/section3/assets/15.png'
 import projectImg16 from '../components/screens/home/section3/assets/16.png'
 import projectImg17 from '../components/screens/home/section3/assets/17.png'
 import projectImg18 from '../components/screens/home/section3/assets/18.png'
-
+import projectImg19 from '../components/screens/home/section3/assets/19.png'
+import projectImg20 from '../components/screens/home/section3/assets/20.png'
 
 const greyBackground = 'var(--color-secundary)'
 const whiteBackground = 'var(--color-terciary)'
@@ -52,4 +53,6 @@ export const projectsData = [
     { id: 15, name: 'Ivan Castro', category: 'Wordpress', description: "Sitio del socio estratégico chileno Ivan Castro. Desarrollo de software a medida hasta servicios de consultoría tecnológica.", image: projectImg16, link: 'https://ivancastro.cl/', backgroundColor: greyBackground },
     { id: 16, name: 'Insecta Digital', category: 'Wordpress', description: "Sitio de marketing y publicidad digital", image: projectImg17, link: 'https://insectadigital.com/', backgroundColor: greyBackground },
     { id: 17, name: 'Activa Facil', category: 'Wordpress', description: "Lead de ventas de Microsoft Office 365", image: projectImg18, link: 'https://activafacil.shop/', backgroundColor: greyBackground },
+    { id: 18, name: 'Desarrollados', category: 'Wordpress', description: "Sitio de Desarrollo web", image: projectImg19, link: 'https://desarrollados.com.ar/', backgroundColor: greyBackground },
+    { id: 19, name: 'Prosigna', category: 'Wordpress', description: "Sitio sobre tratamientos oncológicos", image: projectImg20, link: 'https://prosigna.la/', backgroundColor: greyBackground },
 ]
