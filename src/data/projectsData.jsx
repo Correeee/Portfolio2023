@@ -14,6 +14,8 @@ import projectImg13 from '../components/screens/home/section3/assets/13.png'
 import projectImg14 from '../components/screens/home/section3/assets/14.png'
 import projectImg15 from '../components/screens/home/section3/assets/15.png'
 import projectImg16 from '../components/screens/home/section3/assets/16.png'
+import projectImg17 from '../components/screens/home/section3/assets/17.png'
+import projectImg18 from '../components/screens/home/section3/assets/18.png'
 
 
 const greyBackground = 'var(--color-secundary)'
@@ -48,4 +50,6 @@ export const projectsData = [
     { id: 13, name: 'Vinos LaBlue', category: 'Wordpress', description: "Ecommerce de Vinos argentinos. Sitio realizado con Wordpress.", image: projectImg14, link: 'https://lablue.com.ar/', backgroundColor: greyBackground },
     { id: 14, name: 'Elloil', category: 'Wordpress', description: "Sitio de Elloil: soluciones integrales para los sectores Industriales, Oil&Gas, Energéticos y Mineros.", image: projectImg15, link: 'https://elloil.com.ec/', backgroundColor: greyBackground },
     { id: 15, name: 'Ivan Castro', category: 'Wordpress', description: "Sitio del socio estratégico chileno Ivan Castro. Desarrollo de software a medida hasta servicios de consultoría tecnológica.", image: projectImg16, link: 'https://ivancastro.cl/', backgroundColor: greyBackground },
+    { id: 16, name: 'Insecta Digital', category: 'Wordpress', description: "Sitio de marketing y publicidad digital", image: projectImg17, link: 'https://insectadigital.com/', backgroundColor: greyBackground },
+    { id: 17, name: 'Activa Facil', category: 'Wordpress', description: "Lead de ventas de Microsoft Office 365", image: projectImg18, link: 'https://activafacil.shop/', backgroundColor: greyBackground },
 ]
